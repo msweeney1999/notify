@@ -8,7 +8,7 @@ import { Observable, Observer } from "rxjs";
   providedIn: "root"
 })
 export class EventsService {
-  private endpoint = "http://us-central1-ps-notify-api.cloudfunctions.net/api";
+  private endpoint = "https://us-central1-ps-notify-api.cloudfunctions.net/api";
 
   constructor(private http: HttpClient) {}
 
